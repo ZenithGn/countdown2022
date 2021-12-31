@@ -5,28 +5,54 @@
 		<link href='https://fonts.googleapis.com/css2?family=Pushster&display=swap' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<h1 id="title" class="title"></h1>
-		<div class="countdown">
-			<div class="time">
-				<div class="days">
-					<h1 id="days" class="number"></h1>
-					<h1 id="text1" class="text"></h1>
-				</div>
-				<div class="hours">
-					<h1 id="hours" class="number"></h1>
-					<h1 id="text2" class="text"></h1>
-				</div>
-				<div class="minutes">
-					<h1 id="minutes" class="number"></h1>
-					<h1 id="text3" class="text"></h1>
-				</div>
-				<div class="seconds">
-					<h1 id="seconds" class="number"></h1>
-					<h1 id="text4" class="text"></h1>
-				</div>
-			</div>
-		</div>
-		<canvas id="canvas">Doi brower khac di thang lon<canvas>
+<div class="wrapper">
+  <div class="container text-center">
+    <div class="col-md-12">
+      <h1 id="header" class="">New Year Countdown</h1>
+    </div>
+    <div class="col-md-3 col-xs-6">
+      <div class="clock">
+        <div class="well top-pane">
+          <div id="days" class="num">00</div>
+        </div>
+        <div class="well bottom-pane">
+          <div id="days-text" class="text">Days</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-xs-6">
+      <div class="clock">
+        <div class="well top-pane">
+          <div id="hours" class="num">00</div>
+        </div>
+        <div class="well bottom-pane">
+          <div id="hours-text" class="text">Hours</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-xs-6">
+      <div class="clock">
+        <div class="well top-pane">
+          <div id="mins" class="num">00</div>
+        </div>
+        <div class="well bottom-pane">
+          <div id="mins-text" class="text">Minutes</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-xs-6">
+      <div class="clock">
+        <div class="well top-pane">
+          <div id="secs" class="num">00</div>
+        </div>
+        <div class="well bottom-pane">
+          <div id="secs-text" class="text">Seconds</div>
+        </div>
+      </div>
+    </div>
+    <div id="info" class="small"></div>
+  </div>
+</div>
 	</body>
 	<script src="./app.js"></script>
 </html>
