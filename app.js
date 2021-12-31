@@ -11,6 +11,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   if (distance >=0){
+    document.getElementById("newyear").innerHTML="New Year Countdown";
     document.getElementById("text1").innerHTML="days";
     document.getElementById("text2").innerHTML="hours";
     document.getElementById("text3").innerHTML="minutes";

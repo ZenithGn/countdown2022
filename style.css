@@ -18,6 +18,7 @@ body {
     text-align: center;
     margin: 0;
     overflow: hidden;
+    display:flex;
 }
 
 h1 {
@@ -39,7 +40,7 @@ h1 {
     margin: 15px;
 }
 
-time h2 {
+.time h2 {
     font-weight: bold;
     font-size: 36px;
     line-height: 1;
